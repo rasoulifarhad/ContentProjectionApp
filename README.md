@@ -35,3 +35,4 @@ See https://angular.io/guide/content-projection
 See https://blog.angular-university.io/angular-ng-content/
 See https://www.digitalocean.com/community/tutorials/angular-viewchild-access-component
 See https://blog.thoughtram.io/angular/2015/04/09/developing-a-tabs-component-in-angular-2.html
+See https://www.tektutorialshub.com/angular/ng-content-content-projection-in-angular/
