@@ -15,17 +15,36 @@
 <h2>Button with custom event</h2>
 <app-fancy-btn (someEvent)="doSomething($event)"><b>Submit</b></app-fancy-btn>
 
-<br>
+<br/>
+<div>
 <app-card>
   <header><h1>Angular</h1></header>
   <content>One framework. mobile & desktop</content>
   <footer><b>Supper powered by google</b></footer>
 </app-card>
+</div>
 
-<br>
-<br>
+<br/>
+<br/>
+<div>
 <app-card>
   <header><h1 style="color:red">React</h1></header>
   <content>A JavaScript library for building user interfaces</content>
   <footer><b>Facebook Open Source</b></footer>
 </app-card>
+</div>
+
+<br/>
+<p></p>
+<button counting>Increment</button>
+
+
+<app-count-enter-key></app-count-enter-key>
+
+
+<div>
+  <h2>appHighLight Directive</h2>
+  <p appHighLight>
+    This Texthas blue border
+  </p>
+</div>
