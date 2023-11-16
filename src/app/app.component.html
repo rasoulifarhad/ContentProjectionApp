@@ -15,7 +15,6 @@
 <h2>Button with custom event</h2>
 <app-fancy-btn (someEvent)="doSomething($event)"><b>Submit</b></app-fancy-btn>
 
-<br/>
 <div>
 <app-card>
   <header><h1>Angular</h1></header>
@@ -24,8 +23,6 @@
 </app-card>
 </div>
 
-<br/>
-<br/>
 <div>
 <app-card>
   <header><h1 style="color:red">React</h1></header>
@@ -34,8 +31,65 @@
 </app-card>
 </div>
 
-<br/>
-<p></p>
+
+<app-card-css-selector>
+  <div class="header">
+    <h1>Angular</h1>
+  </div>
+  <div class="content">
+    One framework. mobile & desktop
+  </div>
+  <div class="footer">
+    <b>Supper powered by google</b>
+  </div>
+</app-card-css-selector>
+
+
+<app-card-css-selector>
+  <div class="header">
+    <h1 style="color:red">React</h1>
+  </div>
+  <div class="content">
+    A JavaScript library for building user interfaces
+  </div>
+  <div class="footer">
+    <b>Facebook Open Source</b>
+  </div>
+</app-card-css-selector>
+
+<div>
+<app-card-css-selector>
+  <ng-container>
+    <div class="header">
+      <h1>Angular</h1>
+    </div>
+  </ng-container>
+  <div class="content">
+    One framework. mobile & desktop
+  </div>
+  <div class="footer">
+    <b>Supper powered by google</b>
+  </div>
+</app-card-css-selector>
+</div>
+
+<div>
+<app-card-css-selector>
+  <ng-container ngProjectAs=".header">
+    <div class="header">
+      <h1>Angular</h1>
+    </div>
+  </ng-container>
+  <div class="content">
+    One framework. mobile & desktop
+  </div>
+  <div class="footer">
+    <b>Supper powered by google</b>
+  </div>
+</app-card-css-selector>
+</div>
+
+
 <button counting>Increment</button>
 
 

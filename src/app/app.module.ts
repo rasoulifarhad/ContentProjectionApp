@@ -9,6 +9,7 @@ import { CardComponent } from './card/card.component';
 import { CountClicksDirective } from './count-clicks.directive';
 import { CountEnterKeyComponent } from './count-enter-key/count-enter-key.component';
 import { HighLightDirective } from './high-light.directive';
+import { CardCssSelectorComponent } from './card-css-selector/card-css-selector.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { HighLightDirective } from './high-light.directive';
     CardComponent,
     CountClicksDirective,
     CountEnterKeyComponent,
-    HighLightDirective
+    HighLightDirective,
+    CardCssSelectorComponent
   ],
   imports: [
     BrowserModule,
