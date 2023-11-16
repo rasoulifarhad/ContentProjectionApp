@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'ContentProjectionApp';
+
+  fancyBtnClicked($event: any) {
+    console.log($event);
+    alert('fancy button clicked');
+  }
+
+  doSomething($event: string) {
+    alert($event);
+  }
+
 }
